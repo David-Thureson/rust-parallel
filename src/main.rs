@@ -1,6 +1,9 @@
+use parallel::*;
+
 fn main() {
     println!("Parallel: start");
     show_cpus();
+    monte_carlo::pi::main();
     println!("Parallel: done");
 }
 
